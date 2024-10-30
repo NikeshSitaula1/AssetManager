@@ -6,8 +6,9 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Asset> assets = new ArrayList<>();
 
-        House h1 = new House();
+        House h1 = new House("myhouse", "2020", 120000, "asdf", 3, 2000,40000);
         House h2 = new House();
+
 
         assets.add(h1);
         assets.add(h2);
@@ -26,5 +27,4 @@ public class Main {
         }
 
     }
-
 }

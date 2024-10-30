@@ -7,7 +7,6 @@ public class House extends Asset{
     private int lotSize;
 
     public House(){
-
     }
 
     public House(String description, String dateAcquired, double originalCost,
@@ -71,6 +70,5 @@ public class House extends Asset{
         double houseValue = pricePerSquareFoot * squareFoot;
         double lotValue = 0.25 * lotSize;
         return houseValue + lotValue;
-
     }
 }
